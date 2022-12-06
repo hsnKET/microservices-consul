@@ -13,9 +13,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -48,6 +48,10 @@
       <recent name="D:\ENSET\S5\Systèmes Distribués et Big Data Processing\projects_new_folder\microservices-consul\config-repo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="me.ketlas.orderservice.services" />
+      <recent name="me.ketlas.inventoryservice.entities" />
+      <recent name="me.ketlas.customerservice.entities" />
+      <recent name="me.ketlas.orderservice.repositories" />
       <recent name="me.ketlas.orderservice.model" />
     </key>
   </component>
@@ -56,7 +60,7 @@
       <command value="cd" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.InventoryServiceApplication">
+  <component name="RunManager" selected="Spring Boot.OrderServiceApplication">
     <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="config-service" />
       <extension name="coverage">
@@ -109,8 +113,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="order-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.ketlas.orderservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.ketlas.orderservice.OrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.OrderServiceApplication" />
         <item itemvalue="Spring Boot.InventoryServiceApplication" />
         <item itemvalue="Spring Boot.ConfigServiceApplication" />
         <item itemvalue="Spring Boot.GatewaysServiceApplication" />
@@ -132,7 +150,7 @@
       <workItem from="1670256814114" duration="10000" />
       <workItem from="1670276993281" duration="8416000" />
       <workItem from="1670288393105" duration="5178000" />
-      <workItem from="1670326061964" duration="6930000" />
+      <workItem from="1670326061964" duration="11791000" />
     </task>
     <servers />
   </component>
