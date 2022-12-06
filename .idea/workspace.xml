@@ -42,7 +42,7 @@
       <recent name="D:\ENSET\S5\Systèmes Distribués et Big Data Processing\projects_new_folder\microservices-consul\config-repo" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.GatewaysServiceApplication">
     <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="config-service" />
       <extension name="coverage">
@@ -56,8 +56,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GatewaysServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gateway-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.ketlas.gatewayservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.ketlas.gatewayservice.GatewaysServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.GatewaysServiceApplication" />
         <item itemvalue="Spring Boot.ConfigServiceApplication" />
       </list>
     </recent_temporary>
@@ -75,7 +89,7 @@
       <workItem from="1670255855602" duration="14000" />
       <workItem from="1670256814114" duration="10000" />
       <workItem from="1670276993281" duration="8416000" />
-      <workItem from="1670288393105" duration="343000" />
+      <workItem from="1670288393105" duration="1543000" />
     </task>
     <servers />
   </component>
