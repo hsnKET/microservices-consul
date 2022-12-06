@@ -45,7 +45,7 @@ public class OrderServiceApplication {
                         final Order order = orderRepository.save(Order.builder()
                                 .createdAt(new Date())
                                 .status(statuses[random.nextInt(statuses.length)])
-                                .customer(customers.get(random.nextInt(customers.size())))
+                                .customerId(customers.get(random.nextInt(customers.size())).getId())
                                 .build());
 
                         IntStream.rangeClosed(0,random.nextInt(10))
