@@ -13,8 +13,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -39,8 +40,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="me.ketlas.orderservice.entities" />
+      <recent name="me.ketlas.orderservice.enums" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\ENSET\S5\Systèmes Distribués et Big Data Processing\projects_new_folder\microservices-consul\config-repo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="me.ketlas.orderservice.model" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -124,7 +132,7 @@
       <workItem from="1670256814114" duration="10000" />
       <workItem from="1670276993281" duration="8416000" />
       <workItem from="1670288393105" duration="5178000" />
-      <workItem from="1670326061964" duration="4387000" />
+      <workItem from="1670326061964" duration="6930000" />
     </task>
     <servers />
   </component>
