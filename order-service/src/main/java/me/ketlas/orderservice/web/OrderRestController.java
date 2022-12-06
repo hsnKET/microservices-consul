@@ -16,6 +16,7 @@ public class OrderRestController {
 
     @GetMapping("/fullOrder/{id}")
     public Order getOrder(@PathVariable Long id){
-        return orderRepository.findById(id).orElseThrow(() -> new RuntimeException(String.format("Oder wit ID \"%d\" not found!",id)));
+        return orderRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException(String.format("Oder wit ID \"%d\" not found!",id)));
     }
 }
