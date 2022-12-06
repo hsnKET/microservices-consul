@@ -42,7 +42,7 @@
       <recent name="D:\ENSET\S5\Systèmes Distribués et Big Data Processing\projects_new_folder\microservices-consul\config-repo" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.CustomerServiceApplication">
+  <component name="RunManager" selected="Spring Boot.ConfigServiceApplication">
     <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="config-service" />
       <extension name="coverage">
@@ -84,9 +84,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.CustomerServiceApplication" />
-        <item itemvalue="Spring Boot.GatewaysServiceApplication" />
         <item itemvalue="Spring Boot.ConfigServiceApplication" />
+        <item itemvalue="Spring Boot.GatewaysServiceApplication" />
+        <item itemvalue="Spring Boot.CustomerServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -103,7 +103,7 @@
       <workItem from="1670255855602" duration="14000" />
       <workItem from="1670256814114" duration="10000" />
       <workItem from="1670276993281" duration="8416000" />
-      <workItem from="1670288393105" duration="3013000" />
+      <workItem from="1670288393105" duration="5178000" />
     </task>
     <servers />
   </component>

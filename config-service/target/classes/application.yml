@@ -8,7 +8,9 @@ spring:
       server:
         git:
           uri: file:///D:/ENSET/S5/Systèmes Distribués et Big Data Processing/projects_new_folder/config-repo
+          default-label: master
 # disable consul
 #    consul:
 #      discovery:
 #        enabled: false
+
