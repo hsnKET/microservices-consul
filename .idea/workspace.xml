@@ -42,7 +42,7 @@
       <recent name="D:\ENSET\S5\Systèmes Distribués et Big Data Processing\projects_new_folder\microservices-consul\config-repo" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewaysServiceApplication">
+  <component name="RunManager" selected="Spring Boot.CustomerServiceApplication">
     <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="config-service" />
       <extension name="coverage">
@@ -52,6 +52,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="me.ketlas.configservice.ConfigServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="customer-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.ketlas.customerservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.ketlas.customerservice.CustomerServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -71,6 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.CustomerServiceApplication" />
         <item itemvalue="Spring Boot.GatewaysServiceApplication" />
         <item itemvalue="Spring Boot.ConfigServiceApplication" />
       </list>
@@ -89,7 +103,7 @@
       <workItem from="1670255855602" duration="14000" />
       <workItem from="1670256814114" duration="10000" />
       <workItem from="1670276993281" duration="8416000" />
-      <workItem from="1670288393105" duration="1895000" />
+      <workItem from="1670288393105" duration="3013000" />
     </task>
     <servers />
   </component>
