@@ -1,5 +1,6 @@
 package me.ketlas.orderservice;
 
+import feign.Logger;
 import me.ketlas.orderservice.entities.Order;
 import me.ketlas.orderservice.entities.ProductItem;
 import me.ketlas.orderservice.enums.OrderStatus;
@@ -61,6 +62,11 @@ public class OrderServiceApplication {
                                 });
                     });
         };
+    }
+
+    @Bean
+    Logger.Level feignLoggerLevel() {
+        return Logger.Level.FULL;
     }
 
 }

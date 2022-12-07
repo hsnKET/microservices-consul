@@ -11,3 +11,7 @@ spring:
   #
   config:
     import: optional:configserver:http://localhost:8888
+logging:
+  level:
+    me.ketlas.orderservice.services.CustomerRestClientService: debug
+    me.ketlas.orderservice.services.ProductRestClientService: debug
