@@ -38,6 +38,9 @@
     <property name="jdk.selected.JAVA_MODULE" value="corretto-17" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../config-repo" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -60,7 +63,20 @@
       <command value="cd" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderServiceApplication">
+  <component name="RunManager" selected="Spring Boot.BillingServiceApplication">
+    <configuration name="BillingServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="billing-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.ketlas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.ketlas.BillingServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="config-service" />
       <extension name="coverage">
@@ -83,19 +99,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="me.ketlas.customerservice.CustomerServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GatewaysServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="gateway-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="me.ketlas.gatewayservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="me.ketlas.gatewayservice.GatewaysServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.BillingServiceApplication" />
         <item itemvalue="Spring Boot.OrderServiceApplication" />
         <item itemvalue="Spring Boot.CustomerServiceApplication" />
         <item itemvalue="Spring Boot.InventoryServiceApplication" />
         <item itemvalue="Spring Boot.ConfigServiceApplication" />
-        <item itemvalue="Spring Boot.GatewaysServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +153,7 @@
       <workItem from="1670256814114" duration="10000" />
       <workItem from="1670276993281" duration="8416000" />
       <workItem from="1670288393105" duration="5178000" />
-      <workItem from="1670326061964" duration="16636000" />
+      <workItem from="1670326061964" duration="19706000" />
     </task>
     <servers />
   </component>
