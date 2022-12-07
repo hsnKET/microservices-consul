@@ -36,7 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="corretto-17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../config-repo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web-app" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -153,7 +153,7 @@
       <workItem from="1670256814114" duration="10000" />
       <workItem from="1670276993281" duration="8416000" />
       <workItem from="1670288393105" duration="5178000" />
-      <workItem from="1670326061964" duration="24836000" />
+      <workItem from="1670326061964" duration="25979000" />
     </task>
     <servers />
   </component>
