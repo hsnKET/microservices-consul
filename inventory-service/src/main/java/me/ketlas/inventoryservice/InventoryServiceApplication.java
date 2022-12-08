@@ -15,9 +15,7 @@ import java.util.stream.IntStream;
 public class InventoryServiceApplication {
 
     public static void main(String[] args) {
-
         SpringApplication.run(InventoryServiceApplication.class,args);
-
     }
 
     @Bean

@@ -1,5 +1,26 @@
 <div class="container">
-  <div>
-    Products Here!
+
+  <div *ngIf="errorMessage">
+    {{errorMessage}}
   </div>
+
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Price</th>
+        <th scope="col">Quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+
+    <tr *ngFor="let p of products">
+     <td>p.id</td>
+     <td>p.name</td>
+     <td class="text-right">p.price</td>
+     <td>p.quantity</td>
+    </tr>
+
+  </table>
 </div>
