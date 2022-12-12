@@ -12,7 +12,7 @@ export class ProductsComponent implements OnInit {
 
   public errorMessage!:string
   public products!:Product[]
-
+  private pageSize:number = 10;
 
   constructor(private productService:ProductService) { }
 
@@ -20,11 +20,11 @@ export class ProductsComponent implements OnInit {
     this.loadData();
   }
 
-  loadData(){
-    this.productService.allProducts()
+  loadData(page:number=0){
+    this.productService.allProducts(this.pageSize,page)
       .subscribe({
         next:data => {
-          this.products = data;
+          this.products = data._embedded.products;
         },
         error:err => {
           this.errorMessage = err.message()

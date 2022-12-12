@@ -35,6 +35,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="corretto-17" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web-app" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -63,20 +64,7 @@
       <command value="cd" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.InventoryServiceApplication">
-    <configuration name="BillingServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="billing-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="me.ketlas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="me.ketlas.BillingServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.OrderServiceApplication">
     <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="config-service" />
       <extension name="coverage">
@@ -86,6 +74,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="me.ketlas.configservice.ConfigServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="customer-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.ketlas.customerservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.ketlas.customerservice.CustomerServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.OrderServiceApplication" />
+        <item itemvalue="Spring Boot.CustomerServiceApplication" />
         <item itemvalue="Spring Boot.InventoryServiceApplication" />
         <item itemvalue="Spring Boot.GatewaysServiceApplication" />
         <item itemvalue="Spring Boot.ConfigServiceApplication" />
-        <item itemvalue="Spring Boot.BillingServiceApplication" />
-        <item itemvalue="Spring Boot.OrderServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +155,8 @@
       <workItem from="1670276993281" duration="8416000" />
       <workItem from="1670288393105" duration="5178000" />
       <workItem from="1670326061964" duration="27410000" />
-      <workItem from="1670432820450" duration="3323000" />
+      <workItem from="1670432820450" duration="7055000" />
+      <workItem from="1670832712638" duration="1788000" />
     </task>
     <servers />
   </component>
