@@ -6,6 +6,7 @@ import { ProductsComponent } from './components/products/products.component';
 import {RouterModule, Routes} from "@angular/router";
 import {HttpClientModule} from "@angular/common/http";
 import { OrdersComponent } from './components/orders/orders.component';
+import { CustomersComponent } from './components/customers/customers.component';
 
 
 const  appRoutes:Routes = [
@@ -17,7 +18,8 @@ const  appRoutes:Routes = [
   declarations: [
     AppComponent,
     ProductsComponent,
-    OrdersComponent
+    OrdersComponent,
+    CustomersComponent
   ],
   imports: [
     BrowserModule,
