@@ -3,6 +3,7 @@ import {Product} from "../../modules/product";
 import {Customer} from "../../modules/customer";
 import {CustomerService} from "../../services/customer.service";
 import {Route, Router} from "@angular/router";
+import {Page} from "../../modules/page";
 
 @Component({
   selector: 'app-customers',
@@ -13,6 +14,7 @@ export class CustomersComponent implements OnInit {
 
   public errorMessage!:string
   public customers!:Customer[]
+  public pageResponse!:Page
   private pageSize:number = 10;
 
   constructor(private customerService:CustomerService,
@@ -27,6 +29,7 @@ export class CustomersComponent implements OnInit {
       .subscribe({
         next:data => {
           this.customers = data._embedded.customers;
+          this.pageResponse = data.page;
         },
         error:err => {
           this.errorMessage = err.message()
@@ -36,5 +39,8 @@ export class CustomersComponent implements OnInit {
 
   onOrders(id: number) {
     this.route.navigateByUrl("/orders/"+id)
+  }
+  onPage(page: number) {
+    this.loadData(page)
   }
 }

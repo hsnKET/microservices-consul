@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {ProductService} from "../../services/product.service";
 import {error} from "@angular/compiler-cli/src/transformers/util";
 import {Product} from "../../modules/product";
+import {Page} from "../../modules/page";
 
 @Component({
   selector: 'app-products',
@@ -12,6 +13,7 @@ export class ProductsComponent implements OnInit {
 
   public errorMessage!:string
   public products!:Product[]
+  public pageResponse!:Page
   private pageSize:number = 10;
 
   constructor(private productService:ProductService) { }
@@ -25,6 +27,7 @@ export class ProductsComponent implements OnInit {
       .subscribe({
         next:data => {
           this.products = data._embedded.products;
+          this.pageResponse = data.page;
         },
         error:err => {
           this.errorMessage = err.message()
@@ -32,4 +35,7 @@ export class ProductsComponent implements OnInit {
       })
   }
 
+  onPage(page: number) {
+    this.loadData(page)
+  }
 }

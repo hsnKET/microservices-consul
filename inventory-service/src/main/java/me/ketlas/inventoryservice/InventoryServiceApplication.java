@@ -21,7 +21,7 @@ public class InventoryServiceApplication {
     @Bean
     CommandLineRunner commandLineRunner(ProductRepository productRepository){
         return args -> {
-            IntStream.rangeClosed(1,20).forEach(num ->{
+            IntStream.rangeClosed(1,100).forEach(num ->{
                 productRepository.save(Product.builder()
                                 .name("product ".concat(String.valueOf(num)))
                                 .price(Math.random() * 1000)

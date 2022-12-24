@@ -45,8 +45,5 @@ export class OrderDetailsComponent implements OnInit {
         this.totalPrice += (pi.quantity * (pi.price - (pi.price*pi.discount/100)))
       });
   }
-  onOrderDetail(id: number) {
-    this.router.navigateByUrl("/order-detail/"+id)
-  }
 
 }

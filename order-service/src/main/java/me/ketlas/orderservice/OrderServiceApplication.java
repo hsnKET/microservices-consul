@@ -41,7 +41,7 @@ public class OrderServiceApplication {
             Random random = new Random();
             OrderStatus[] statuses = new OrderStatus[]{OrderStatus.CANCELED,OrderStatus.CREATED,
                                                        OrderStatus.DELIVERED,OrderStatus.PENDING};
-            IntStream.rangeClosed(0,20)
+            IntStream.rangeClosed(0,100)
                     .forEach(i ->{
                         final Order order = orderRepository.save(Order.builder()
                                 .createdAt(new Date())
@@ -49,7 +49,7 @@ public class OrderServiceApplication {
                                 .customerId(customers.get(random.nextInt(customers.size())).getId())
                                 .build());
 
-                        IntStream.rangeClosed(0,random.nextInt(10))
+                        IntStream.rangeClosed(0,random.nextInt(20))
                                 .forEach(j ->{
                                     ProductItem  productItem = ProductItem.builder()
                                                 .order(order)

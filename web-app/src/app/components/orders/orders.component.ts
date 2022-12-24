@@ -5,6 +5,7 @@ import {ActivatedRoute, Router} from "@angular/router";
 import {Order} from "../../modules/order";
 import {OrderService} from "../../services/order.service";
 import {ProductItem} from "../../modules/product-item";
+import {Page} from "../../modules/page";
 
 @Component({
   selector: 'app-orders',
@@ -42,4 +43,6 @@ export class OrdersComponent implements OnInit {
   onOrderDetail(id: number) {
     this.router.navigateByUrl("/order-detail/"+id)
   }
+
+
 }
