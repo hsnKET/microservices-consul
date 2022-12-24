@@ -10,7 +10,7 @@ export interface Order {
 }
 
 export interface Embedded{
-  products:Order[];
+  orders:Order[];
 
 }
 export interface OrderResponse{

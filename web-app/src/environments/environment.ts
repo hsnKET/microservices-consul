@@ -8,6 +8,7 @@ export const environment = {
   baseBillingServiceURL:'http://localhost:9999/billing-service',
   baseInventoryServiceURL:'http://localhost:9999/inventory-service',
   baseCustomerServiceURL:'http://localhost:9999/customer-service',
+  baseOrderServiceURL:'http://localhost:9999/order-service',
 };
 
 /*

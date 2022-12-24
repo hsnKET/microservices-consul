@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {Product} from "../../modules/product";
 import {Customer} from "../../modules/customer";
 import {CustomerService} from "../../services/customer.service";
+import {Route, Router} from "@angular/router";
 
 @Component({
   selector: 'app-customers',
@@ -14,7 +15,8 @@ export class CustomersComponent implements OnInit {
   public customers!:Customer[]
   private pageSize:number = 10;
 
-  constructor(private customerService:CustomerService) { }
+  constructor(private customerService:CustomerService,
+              private route:Router) { }
 
   ngOnInit(): void {
     this.loadData();
@@ -32,4 +34,7 @@ export class CustomersComponent implements OnInit {
       })
   }
 
+  onOrders(id: number) {
+    this.route.navigateByUrl("/orders/"+id)
+  }
 }
