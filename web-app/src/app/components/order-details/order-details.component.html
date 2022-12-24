@@ -1,0 +1,34 @@
+<div class="container">
+
+  <div *ngIf="errorMessage">
+    <div class="alert-danger">
+      {{errorMessage}}
+    </div>
+  </div>
+
+  <table class="table table-bordered mt-5">
+    <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Product ID</th>
+      <th scope="col">Price</th>
+      <th scope="col">Quantity</th>
+      <th scope="col">Discount</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    <tr *ngFor="let pi of productItemResponse.productItems">
+      <td>{{pi.id}}</td>
+      <td >{{pi.productId}}</td>
+      <td class="text-end">{{pi.price | currency : 'USD'}}</td>
+      <td>{{pi.quantity}}</td>
+      <td>{{pi.discount}}%</td>
+    </tr>
+
+    <tr *ngIf="totalPrice">
+      <td colspan="4">Total</td>
+      <td ><b>{{totalPrice | number: '1.0-2'}}</b></td>
+    </tr>
+  </table>
+</div>

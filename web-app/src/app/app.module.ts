@@ -7,14 +7,14 @@ import {RouterModule, Routes} from "@angular/router";
 import {HttpClientModule} from "@angular/common/http";
 import { OrdersComponent } from './components/orders/orders.component';
 import { CustomersComponent } from './components/customers/customers.component';
-import { OrderDetailsComponent } from './order-details/order-details.component';
+import { OrderDetailsComponent } from './components/order-details/order-details.component';
 
 
 const  appRoutes:Routes = [
   {path:"products",component:ProductsComponent},
   {path:"customers",component:CustomersComponent},
   {path:"orders/:customerId",component:OrdersComponent},
-  {path:"order-detail/:orderId",component:OrdersComponent},
+  {path:"order-detail/:orderId",component:OrderDetailsComponent},
   {path:"",redirectTo:"products",pathMatch:"full"}
 ]
 

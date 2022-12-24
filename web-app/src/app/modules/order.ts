@@ -1,4 +1,5 @@
 import {Page} from "./page";
+import {ProductItem} from "./product-item";
 
 export interface Order {
 
@@ -7,6 +8,7 @@ export interface Order {
   status:string,
   customerId:number,
   customer:number,
+  productItems:ProductItem[];
 }
 
 export interface Embedded{

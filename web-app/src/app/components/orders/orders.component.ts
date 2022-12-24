@@ -4,6 +4,7 @@ import {CustomerService} from "../../services/customer.service";
 import {ActivatedRoute, Router} from "@angular/router";
 import {Order} from "../../modules/order";
 import {OrderService} from "../../services/order.service";
+import {ProductItem} from "../../modules/product-item";
 
 @Component({
   selector: 'app-orders',
@@ -30,16 +31,15 @@ export class OrdersComponent implements OnInit {
       .subscribe({
         next:data => {
           this.orders = data._embedded.orders;
-          console.log(this.orders)
         },
         error:err => {
-          this.errorMessage = err.message()
+          this.errorMessage = err.message
         }
       })
   }
 
 
   onOrderDetail(id: number) {
-    this.router.navigateByUrl("/order-detail/:OrderId")
+    this.router.navigateByUrl("/order-detail/"+id)
   }
 }
