@@ -1,6 +1,7 @@
 # Microservices Architectures with (Spring Cloud Config, Consul Discovery, Consul Config,Vault)
 
 ## Project Architecture
+![image](https://user-images.githubusercontent.com/94486861/209448230-b007f27a-9dc1-49de-a1a4-8222f50f170e.png)
 
 ## Project Structure
 ![image](https://user-images.githubusercontent.com/94486861/209438466-f5708731-d5fa-46c6-a235-04c9b5fd4f1c.png)
