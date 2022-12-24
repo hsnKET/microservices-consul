@@ -11,6 +11,8 @@ import { CustomersComponent } from './components/customers/customers.component';
 
 const  appRoutes:Routes = [
   {path:"products",component:ProductsComponent},
+  {path:"customers",component:CustomersComponent},
+  {path:"orders",component:OrdersComponent},
   {path:"",redirectTo:"products",pathMatch:"full"}
 ]
 

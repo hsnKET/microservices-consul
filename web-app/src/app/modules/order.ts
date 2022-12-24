@@ -1,3 +1,5 @@
+import {Page} from "./page";
+
 export interface Order {
 
   id:number,
@@ -16,9 +18,3 @@ export interface OrderResponse{
   page:Page;
 }
 
-export interface Page{
-  size:number;
-  totalElements:number;
-  totalPages:number;
-  number:number;
-}

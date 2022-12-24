@@ -1,3 +1,5 @@
+import {Page} from "./page";
+
 export interface Product {
 
   id:number,
@@ -13,10 +15,4 @@ export interface Embedded{
 export interface ProductResponse{
   _embedded:Embedded;
   page:Page;
-}
-export interface Page{
-  size:number;
-  totalElements:number;
-  totalPages:number;
-  number:number;
 }

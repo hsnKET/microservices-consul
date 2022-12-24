@@ -1,1 +1,24 @@
-<p>customers works!</p>
+<div class="container">
+
+  <div *ngIf="errorMessage">
+    {{errorMessage}}
+  </div>
+
+  <table class="table table-bordered mt-5">
+    <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Name</th>
+      <th scope="col">Email</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    <tr *ngFor="let c of customers">
+      <td>{{c.id}}</td>
+      <td>{{c.name}}</td>
+      <td>{{c.email}}</td>
+    </tr>
+
+  </table>
+</div>
